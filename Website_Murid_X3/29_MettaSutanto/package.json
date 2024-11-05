@@ -1,0 +1,17 @@
+{
+  "name": "artikel-atmosfer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./resources/css/app.css -o ./resources/css/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "animejs": "^3.2.2"
+  }
+}

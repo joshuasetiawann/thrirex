@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #f8deee;
+}
+.body-text {
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin: 1cm;
+}
+
+#Langit {
+    width: 500px;
+}
+
+img{
+    width: 500px;
+}
+
+nav    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: hwb(323 78% 0%);
+    font-family: "Montserrat", sans-serif;
+}
+.heading {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li {
+
+    list-style:none;
+
+}
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+.nav-links a:hover:not(.active) {
+    background-color: #f888cd;
+}
+.nav-links li a.active {
+    background-color:#02f598;
+
+}
+
+
+
+.company-details{
+    overflow: hidden;
+    text-align: center;
+    margin-left: -5.5cm;
+}
+
+#footer{
+    margin-top: 10%;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3{
+    float: right;
+    text-align: center;
+    width: 30%;
+    background: #f888cd;            
+}
+
+#footer #icon{
+    display: flexbox;
+    font-size: 3em;
+    background: #f888cd;
+}
+
+div.scroll-container {
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+  }

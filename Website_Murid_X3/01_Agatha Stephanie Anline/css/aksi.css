@@ -1,0 +1,55 @@
+body {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    margin: 50px;
+    padding: 0;
+    background-size: contain; 
+    background-repeat: repeat;
+}
+header {
+    color: #f6f3ef;
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 0px;
+    text-align: center;
+}
+nav {
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 0px;
+    text-align: center;
+}
+nav a {
+    color: #f6f3ef;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Neue Montreal Bold', sans-serif; font-style: normal;
+}
+nav a:hover {
+    background-color: #999;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+.photo {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.article-content {
+    text-align: justify;
+    color: #f6f3ef;
+}
+.article-content p {
+    margin: 10px 0;
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

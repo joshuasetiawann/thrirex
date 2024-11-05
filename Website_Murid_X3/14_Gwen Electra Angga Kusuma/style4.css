@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+.body-text {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #E0AFA0;
+  font-family: "Montserrat", sans-serif;
+}
+.heading {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nav-links li {
+
+  list-style: none;
+
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+.nav-links a:hover:not(.active) {
+  background-color: #BCB8B1;
+}
+.nav-links li a.active {
+  background-color: #79a8dd;
+}
+
+.company-details{
+	overflow: hidden;
+	padding: 2em 13em;
+	background: #8A817C;
+	text-align: center;
+	margin-top: 8em;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3{
+	float: left;
+	width: 350px;
+	padding: 3px 10px 3px 10px;
+}
+
+#footer #icon{
+	display: block;
+	margin-bottom: 0em;
+	font-size: 3em;
+}
+.copyright
+{
+	overflow: hidden;
+	padding: 3em 0em;
+	border-top: 20px solid rgba(255, 255, 255, 0.08);
+	text-align: center;
+	background: #463f3a;
+}
+
+.copyright p
+{
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #F4F3EE;
+}
+     
+.copyright a
+{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+ 
+/* Styling Social Icons */
+ul.contact{
+    margin: 0;
+    padding: 1em 0em 0em 0em;
+    list-style: none;
+}
+     
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.10em;
+    font-size: 1em;
+}
+ 
+ul.contact li a{
+    color: #FFF;
+    display: inline-block;
+    background: #8A817C;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body-text {
+
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.nat {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav    {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(10, 156, 228);
+    font-family: "Montserrat", sans-serif;
+}
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding-right: 20em;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+.nav-links li {
+
+    list-style: none;
+    
+}
+
+article{
+    margin: 1cm;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 14px 16px;
+}
+.nav-links a:hover:not(.active) {
+    background-color: rgb(13, 130, 233);
+}
+.nav-links li a.active {
+    background-color:#02f598;
+
+}
+
+.company-details{
+    overflow: hidden;
+    padding: 3em 0em;
+    background: #E3F0F7;
+    text-align: center;
+    margin-top: 5em;
+    margin-left: -3em;
+    margin-right: -3em;
+    padding-left: 18em;
+}
+
+#footer #col1,
+#footer #col2,
+#footer #col3{
+    float: left;
+    width: 320px;
+    padding: 0px 40px 0px 40px;
+}
+
+#footer #icon{
+    display: block;
+    margin-bottom: lem;
+    font-size: 3em;
+}
+.copyright {
+    overflow: hidden;
+    padding: 3em 0em;
+    border-top: 20px solid rgba(255, 255, 255);
+    text-align: center;
+}

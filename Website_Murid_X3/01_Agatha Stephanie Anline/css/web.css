@@ -1,0 +1,82 @@
+body {
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+ 
+    background-size: cover;
+    background-repeat: repeat;
+    color: #f6f3ef;
+}
+header {
+    
+    color: #f6f3ef;
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 0px;
+    text-align: center;
+    font-family: 'IM Fell English', serif; font-style: italic;
+}
+nav {
+    
+    padding-top: 10px; 
+    padding-right: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 0px;
+    text-align: center;
+}
+nav a {
+    color: #f6f3ef;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Neue Montreal Bold', sans-serif; font-style: normal;
+}
+nav a:hover {
+    background-color: #999;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+.carousel {
+    flex: 1;
+    max-width: 30%; 
+    height: auto; 
+    margin-right: 20px;
+}
+.carousel img {
+    max-width: 100%; 
+    height: auto; 
+}
+.content {
+    flex: 1;
+}
+.article-content p {
+    margin: 10px 0;
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+}
+footer {
+    
+    color: #f6f3ef;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-style: normal;
+}
+h2 {
+    font-family: 'Neue Montreal Bold', sans-serif; font-style: normal; font-size: xx-large;
+}
+a {
+    color: #f6f3ef; 
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline; 
+}
